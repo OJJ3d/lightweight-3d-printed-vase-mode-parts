@@ -26,3 +26,30 @@ tips:
   1. It will make hundreds of bodies at least so will be laggy, be patient
   2. make sure you are alligned to grid
   3. do as much in scetch as possible
+
+For the boat specifically we looked at many different catamaran hull shapes and tried to emulate them with our design. We also used a 0.8mm nozzle for more strength though this method is compatible with all nozzle sizes. For the wingsail we used a naca 0010 profile and the same vase mode technique, adding a spar hole and solid printed parts for the stays (cable supports on either side of the mast), it will be printed in lw-pla or lw-asa.
+
+print settings for the hulls (vary by printer capabilites, I use a sovol sv08):
+vase mode
+8000mm/s^2 accel
+250mm/s speed
+0.4mm layer height
+slight overtemperature of material for better bonding (go to the top of the suggested range of temparture)
+5% overextrusion for better layer bonding
+
+print settings for the wing
+vase mode
+8000mm/s^2 accel
+100mm/s speed
+0.4mm layer height
+maximum temperature
+5% overextrusion (remember to tune extrusion to the expansion of the filament!)
+
+The way in which we join hull segments is still under development, right now we are using thermal welding (melting both ends and pressing them together) but we find this a bit imprecise and weak so we are experimenting with solvent welding, gluing and scarf joints. 
+
+images:
+
+
+
+
+
